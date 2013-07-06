@@ -36,6 +36,6 @@ end
 #end
 
 # PHPの動作チェック用 
-template "/var/www/index.php" do
+template "/var/www/html/index.php" do
     source "index.php.erb"
 end
