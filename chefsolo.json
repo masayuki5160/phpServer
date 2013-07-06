@@ -1,0 +1,11 @@
+{
+    	"app_config" :{
+		"name":"tanaka"
+	},
+    	"apache" :{
+		"port":"80"
+	},
+	"run_list" :[
+		"recipe[php]"
+	]
+}
